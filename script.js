@@ -1,9 +1,14 @@
-function shortcut(str1, str2) {
-  if (str1.length > 0 && str2.length > 0) {
-    return str1[0].toUpperCase() + str2[0].toUpperCase();
-  } else {
-    return '';
-  }
+function shortcut(s1, s2) {
+  // your code here
+	
+    // Check if either of the input strings is empty
+    if (s1 === '' || s2 === '') {
+        return '';
+    }
+    // Return the initial letters of both strings
+    return s1[0] + s2[0];
+
+
 }
 
 // Do not change the code below.
